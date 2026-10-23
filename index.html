@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 - Product Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Product Store</h1>
+        <p>Menampilkan produk dari DummyJSON API</p>
+    </header>
+
+    <main>
+        <!-- Bagian Fetch API -->
+        <section id="produk">
+            <h2>Daftar Produk</h2>
+
+            <p id="loading">Memuat produk...</p>
+
+            <div id="product-list"></div>
+        </section>
+
+        <!-- Bagian Form DOM -->
+        <section id="form-section">
+            <h2>Form Pendaftaran</h2>
+
+            <form id="registration-form">
+                <div>
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" placeholder="Masukkan nama lengkap">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Masukkan email">
+                </div>
+
+                <div>
+                    <label for="prodi">Program Studi</label>
+                    <input type="text" id="prodi" placeholder="Masukkan program studi">
+                </div>
+
+                <button type="submit">Daftar</button>
+            </form>
+
+            <p id="form-message"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
